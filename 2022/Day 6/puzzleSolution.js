@@ -71,7 +71,7 @@ const partOne = async() => {
     await new Promise(res => rl.once("close", res));
 }
 
-// partOne();
+partOne();
 
 /*
 --- Part Two ---
